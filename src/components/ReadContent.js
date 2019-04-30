@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 
-class Content extends Component {
+class ReadContent extends Component {
     render() {
+      // this.props.title = 'hi';
+      // Component 안에서 전달된 props를 바꿀수 없다.(금지)
+
       console.log('Content render');
       
       return (
@@ -13,4 +16,4 @@ class Content extends Component {
     }
   }
   
-export default Content;
+export default ReadContent;
